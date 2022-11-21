@@ -1,5 +1,6 @@
 package me.whiteship.inflearnthejavatest.study;
 
+import me.whiteship.inflearnthejavatest.domain.Study;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.condition.EnabledOnJre;
 import org.junit.jupiter.api.condition.JRE;

@@ -1,4 +1,6 @@
-package me.whiteship.inflearnthejavatest.study;
+package me.whiteship.inflearnthejavatest.domain;
+
+import me.whiteship.inflearnthejavatest.study.StudyStatus;
 
 public class Study {
     private StudyStatus status = StudyStatus.DRAFT;
@@ -17,6 +19,16 @@ public class Study {
 
     public String getName() {
         return name;
+    }
+
+    private Member owner;
+
+    public Member getOwner() {
+        return owner;
+    }
+
+    public void setOwner(Member owner) {
+        this.owner = owner;
     }
 
     public Study(int limit) {
